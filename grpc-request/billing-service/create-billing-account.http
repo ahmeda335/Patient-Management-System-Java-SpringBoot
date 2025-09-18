@@ -1,0 +1,10 @@
+# BillingService : is the name of the grpc method.
+# CreateBillingAccount : is the name of the rpc method.
+GRPC localhost:9001/BillingService/CreateBillingAccount
+Content-Type: application/json
+
+{
+  "patientId" : "12343431332",
+  "name" : "Ahmed Adel Mohamed",
+  "email" : "ahmed@gmail.com"
+}

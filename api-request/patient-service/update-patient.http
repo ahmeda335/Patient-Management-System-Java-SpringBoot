@@ -1,0 +1,12 @@
+### Update Patient
+PUT http://localhost:4004/api/ patients/b51b3ea2-9155-4454-b5e6-f033c5d4af84
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "name": "Ahmed Adel Mohamed",
+  "email": "ahmedadel@gmail.com",
+  "address": "Tanta",
+  "dateOfBirth": "2003-03-30"
+}
+###
